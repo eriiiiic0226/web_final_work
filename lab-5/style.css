@@ -1,0 +1,68 @@
+
+body{
+    text-align:center;
+}
+h1 {
+    position: relative;
+    font-size: 4rem;
+    background-image: linear-gradient(to right, #dd98c7 , #80deeb);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+h1::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+h1:hover{
+    color:aliceblue;
+}
+h1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+  
+h1::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(0, 91%, 57%);
+    z-index: -1;
+    transition: transform .3s ease;
+}
+
+#playlistButtons button {
+    border-radius: 15px;
+    border: 2px solid red;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+#playlistButtons button:hover{
+    background-color: red;
+    color: white;
+}
+
+ 
+h2{
+    /*預留歌曲名稱顯示空間*/
+    height:32px;
+    font-size:large;
+}
+
+#playButton{
+    padding: 10px 20px;
+    background-color:white;
+    color: black;
+    border: 2px solid red;
+    border-radius:15px;
+}
+
+#playButton:hover{
+    background-color: red;
+    color: white;
+}

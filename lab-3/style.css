@@ -1,0 +1,12 @@
+body{
+    text-align:center;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #ededed ,#e8abdb, #c30199);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}

@@ -1,0 +1,39 @@
+let playLists =[
+    {
+        playList:[
+            "9eoRMHQ2dyA",
+            "PIWXhAvy7uU",
+            "DcJ-jAEjOO8",
+        ],
+        playTime:[
+            [30,40],
+            [27,37],
+            [25,35]
+        ]
+    },
+    {
+        playList:[
+            "txN4t64Ik_k",
+            "FAZy9K_5y1I",
+            "0oLzTI3pgK8",
+        ],
+        playTime:[
+            [30,48],
+            [27,38],
+            [10,30]
+        ]
+    },
+    {
+        playList:[
+            "qZ5eoqVCyps",
+            "9MMIB61e6sM",
+            "r8n4OnlDVqE",
+        ],
+        playTime:[
+            [30,40],
+            [27,37],
+            [25,35]
+        ]
+    }
+    
+];

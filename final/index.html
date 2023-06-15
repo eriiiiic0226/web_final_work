@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple RPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1 id="title">探索地圖~</h1> -->
+
+    <!-- canvas -->
+    <div>
+        <canvas id ="myCanvas" width="500" height="500"></canvas>
+        <p id ="talkBox">用 上/下/左/右 做控制</p>
+    </div>
+    <div id = "jump"></div>
+    <!--  question -->
+    <div id="question-container" class="hidden">
+        <h2 id="question"></h2>
+        <div id="buttons"></div>
+    </div>
+    <div id="result-container" class="hidden">
+        <h2 id="result"></h2>
+        <div id="linkbutton"></div>
+    </div>
+
+    <script src="//unpkg.com/jquery"></script>
+    <script src="mapdata.js"></script>
+    <script src="questionsdata.js"></script>
+    <script src="main.js"></script>
+    <script src="question.js"></script>
+</body>
+</html>
